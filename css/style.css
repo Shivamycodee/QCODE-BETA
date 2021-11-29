@@ -1,0 +1,88 @@
+@import url("website1.css");
+
+#body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+#body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+
+.about-section {
+  background: url(about.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  padding: 6% 10%;
+}
+
+.inner-container {
+  width: 35%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 100px;
+}
+/* 
+.navbar {
+  position: sticky;
+  margin-top: 0;
+  display: flex;
+  background: rgb(92, 250, 139);
+  width: 100%;
+  justify-content: space-evenly;
+  border-radius: 9px;
+}
+
+.item {
+  font-family: "dosis", sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  font-size: larger;
+  text-decoration: none;
+  border: 0;
+  background-color: inherit;
+}
+
+.item:hover {
+  border: 1px solid rgb(89, 213, 235);
+  border-radius: 5px;
+  padding: 5px;
+  background: rgba(109, 229, 245, 0.8);
+}
+
+.dd-item {
+  text-decoration: none;
+  color: white;
+  display: block;
+  border: 2px solid inherit;
+  border-radius: 7px;
+  padding: 5px;
+  font-size: 20px;
+  transition: 0.5s;
+  text-align: center;
+  background: rgb(109, 229, 245);
+}
+
+.subnav button:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  display: none;
+}
+.subnav:hover > .dropdown {
+  display: block;
+  cursor: pointer;
+}
+
+.dd-item:hover {
+  transform: scale(1.2);
+  background: rgb(238, 238, 238);
+} */

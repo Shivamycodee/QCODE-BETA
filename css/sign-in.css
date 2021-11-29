@@ -1,0 +1,59 @@
+.bg-img {
+  background: url("logo1.jpg");
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow:hidden;
+  background-size: cover;
+  z-index: -1;
+}
+body{
+margin:0;}
+
+.sign-up {
+  /* position: relative; */
+  margin-top: 80px;
+  margin-left: 600px;
+  width: 350px;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: auto;
+  background: rgb(252, 252, 252);
+  height: 510px;
+  align-items: center;
+}
+
+.sign-up h2,
+button,
+input {
+  border-radius: 20px;
+  padding: 10px;
+  color: #1c8adb;
+}
+.sign-up button,
+input {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+button {
+  background: #1c8adb;
+  color: white;
+  transition: 0.7s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 4px 8px black;
+}
+
+#toggle-password {
+  position: absolute;
+  background: rgb(41, 164, 185);
+  color: black;
+  margin-left: 250px;
+  margin-top: 124px;
+  padding: 0;
+  box-shadow: 0;
+}

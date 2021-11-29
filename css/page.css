@@ -1,0 +1,204 @@
+@import url("website1.css");
+
+.bg-img-html {
+  background-image: url(html.jpg);
+  height: 740px;
+  width: 100%;
+  opacity: 0.7;
+  background-size: cover;
+}
+.bg-img-css {
+  background-image: url(css.png);
+  height: 740px;
+  width: 100%;
+  opacity: 0.7;
+  background-size: cover;
+}
+.bg-img-javascript {
+  background-image: url(javascript.png);
+  height: 740px;
+  width: 100%;
+  opacity: 0.7;
+  background-size: cover;
+}
+.bg-img-c {
+  background-image: url(cprog.png);
+  height: 740px;
+  width: 100%;
+  opacity: 0.7;
+  background-size: cover;
+}
+.bg-img-cpp {
+  background-image: url(cpp.jpg);
+  height: 740px;
+  width: 100%;
+  opacity: 0.7;
+  background-size: cover;
+}
+.bg-img-java {
+  background-image: url(java.jpg);
+  height: 740px;
+  width: 100%;
+  opacity: 0.7;
+  background-size: cover;
+}
+
+/* .navbar {
+  position: sticky;
+  margin-top: 0;
+  display: flex;
+  background:black;
+  width: 100%;
+  justify-content: space-evenly;
+  border-radius: 9px;
+}
+
+.item {
+  font-family: "dosis", sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  font-size: larger;
+  text-decoration: none;
+  border: 0;
+  background-color: inherit;
+}
+
+.item:hover {
+  border: 1px solid rgb(89, 213, 235);
+  border-radius: 5px;
+  padding: 5px;
+  background: rgba(109, 229, 245, 0.8);
+}
+
+.dd-item {
+  text-decoration: none;
+  color: white;
+  display: block;
+  border: 2px solid inherit;
+  border-radius: 7px;
+  padding: 5px;
+  font-size: 20px;
+  transition: 0.5s;
+  text-align: center;
+  background: rgb(109, 229, 245);
+}
+
+.subnav button:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  display: none;
+}
+.subnav:hover > .dropdown {
+  display: block;
+  cursor: pointer;
+}
+
+.dd-item:hover {
+  transform: scale(1.2);
+  background: rgb(238, 238, 238);
+} */
+
+.videos {
+  margin: 50px;
+  margin-top: 150px;
+  display: grid;
+  gap: 10px 10px;
+  color: white;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+
+iframe[class="video"] {
+  background: rgb(151, 149, 149);
+  /* background: rgb(104, 104, 219); */
+  width: 360px;
+  height: 190px;
+  border-radius: 10px;
+}
+
+div[class="video"] {
+  border-radius: 10px;
+  margin: 20px;
+  background: rgb(138, 166, 228);
+  text-align: center;
+  width: 600px;
+  height: 120px;
+}
+
+li:hover {
+  color: blue;
+}
+
+.prac-btn {
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  background: lightgreen;
+  margin: 40px;
+  float: left;
+  border: none;
+  transition: 0.5s;
+  font-size: 17px;
+}
+
+.notes-btn {
+  color: white;
+  padding: 5px;
+  background: lightgreen;
+  border-radius: 10px;
+  border: none;
+  margin: 40px 60px 0px 0px;
+  float: right;
+  transition: 0.5s;
+  font-size: 17px;
+}
+
+.prac-btn:hover,
+.notes-btn:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+/* 
+.footer {
+  background: linear-gradient(to right, rgb(121, 221, 121), rgb(144, 177, 221));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 200px;
+  align-items: center;
+  color: white;
+}
+
+.footer-item {
+  border: 3px solid rgb(145, 212, 235);
+  padding: 10px;
+  border-radius: 8px;
+  border-top: 0;
+  border-left: 0;
+  transition: 0.5s;
+}
+
+.footer-item:hover {
+  transform: scale(1.2);
+}
+
+.footer span:hover {
+  color: rgb(104, 104, 241);
+} */
+
+ol a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+ol a:hover {
+  transform: scale(1.008);
+  color: lightblue;
+}
+
+ol a {
+  display: block;
+}
